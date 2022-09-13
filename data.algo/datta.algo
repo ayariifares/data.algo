@@ -1,0 +1,40 @@
+ALGORITHM algorithm_name
+VAR : a,b : array
+    
+BEGIN
+    FOR (let i=0;i<a.length;i++)
+    END_FOR
+    FOR(let j =0 ; j<b.length;j++)
+    END_FOR
+    IF (a[i]=b[j]) THEN
+        
+    END_IF
+    sum=(sum+a[i])*2
+    IF (j==n) THEN
+    write (a[i]+" ");
+    END_IF
+END
+
+
+
+
+
+
+
+
+
+
+
+
+ALGORITHM algorithm_name
+VAR c,d :array_name : ARRAY_OF INTEGER[];
+BEGIN
+    FOR (let k=0;k<a.length;k++)
+    END_FOR
+    FOR (let j=0; j<b.length; j++)
+    END_FOR
+    IF (a[k]<>b[j]) THEN
+        sum=sum+a[k]
+    END_IF
+END
+
